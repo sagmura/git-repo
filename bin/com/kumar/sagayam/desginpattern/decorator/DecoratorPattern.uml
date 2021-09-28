@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_3700oM6VEeuiC9HFy7u2rg" name="DecoratorPattern">
+    <eAnnotations xmi:id="_4EKRQM6VEeuiC9HFy7u2rg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_4EKRQc6VEeuiC9HFy7u2rg" source="codegen">
+        <details xmi:id="_4EKRQs6VEeuiC9HFy7u2rg" key="codegenDirectory" value="/DesignPattern/src"/>
+        <details xmi:id="_4L7tMM6VEeuiC9HFy7u2rg" key="AssociatedSourceCode" value="/DesignPattern/src/com/kumar/sagayam/desginpattern/decorator/DecoratorPatternClient.java;2226971103/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_4J3QoM6VEeuiC9HFy7u2rg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_4J3Qoc6VEeuiC9HFy7u2rg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_4J3Qos6VEeuiC9HFy7u2rg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_4J3Qo86VEeuiC9HFy7u2rg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_4J3QpM6VEeuiC9HFy7u2rg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_4J33sM6VEeuiC9HFy7u2rg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_4J33sc6VEeuiC9HFy7u2rg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_4J33ss6VEeuiC9HFy7u2rg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_4J33s86VEeuiC9HFy7u2rg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_4JrDYM6VEeuiC9HFy7u2rg" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_4JrDYc6VEeuiC9HFy7u2rg" name="kumar">
+        <packagedElement xmi:type="uml:Package" xmi:id="_4JrDYs6VEeuiC9HFy7u2rg" name="sagayam">
+          <packagedElement xmi:type="uml:Package" xmi:id="_4JrDY86VEeuiC9HFy7u2rg" name="desginpattern">
+            <packagedElement xmi:type="uml:Package" xmi:id="_4Jv74M6VEeuiC9HFy7u2rg" name="decorator">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_4J1bcM6VEeuiC9HFy7u2rg" name="Car" visibility="package">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_4J2pkM6VEeuiC9HFy7u2rg" name="BasicCar" visibility="package">
+                  <eAnnotations xmi:id="_4J2pkc6VEeuiC9HFy7u2rg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_4J2pks6VEeuiC9HFy7u2rg" key="sameFile"/>
+                  </eAnnotations>
+                  <interfaceRealization xmi:id="_4KaqQM6VEeuiC9HFy7u2rg" client="_4J2pkM6VEeuiC9HFy7u2rg" supplier="_4J1bcM6VEeuiC9HFy7u2rg" contract="_4J1bcM6VEeuiC9HFy7u2rg"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4KkbQM6VEeuiC9HFy7u2rg" name="assembel" specification="_4J4ewM6VEeuiC9HFy7u2rg">
+                    <language>java</language>
+                    <body>System.out.println(&quot;Basic Car Model&quot;);&#xD;
+	</body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_4J4ewM6VEeuiC9HFy7u2rg" name="assembel" method="_4KkbQM6VEeuiC9HFy7u2rg"/>
+                </nestedClassifier>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_4J5s4M6VEeuiC9HFy7u2rg" name="CarDecorator" visibility="package">
+                  <eAnnotations xmi:id="_4J5s4c6VEeuiC9HFy7u2rg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_4J5s4s6VEeuiC9HFy7u2rg" key="sameFile"/>
+                  </eAnnotations>
+                  <ownedComment xmi:id="_wr5NwM6WEeuiC9HFy7u2rg">
+                    <body>Important Class in the Decorato Patttern*</body>
+                  </ownedComment>
+                  <ownedAttribute xmi:id="_4KimEM6VEeuiC9HFy7u2rg" name="car" visibility="protected" type="_4J1bcM6VEeuiC9HFy7u2rg" association="_4KuzUM6VEeuiC9HFy7u2rg"/>
+                  <interfaceRealization xmi:id="_4KbRUM6VEeuiC9HFy7u2rg" client="_4J5s4M6VEeuiC9HFy7u2rg" supplier="_4J1bcM6VEeuiC9HFy7u2rg" contract="_4J1bcM6VEeuiC9HFy7u2rg"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4KlCUM6VEeuiC9HFy7u2rg" name="CarDecorator" specification="_4Kb4YM6VEeuiC9HFy7u2rg">
+                    <ownedParameter xmi:id="_4KlCUc6VEeuiC9HFy7u2rg" name="car" type="_4J1bcM6VEeuiC9HFy7u2rg"/>
+                    <ownedParameter xmi:id="_4KlCUs6VEeuiC9HFy7u2rg" type="_4J5s4M6VEeuiC9HFy7u2rg" direction="return">
+                      <name xsi:nil="true"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>this.car = car;&#xD;
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4KlCU86VEeuiC9HFy7u2rg" name="assembel" specification="_4J6T8M6VEeuiC9HFy7u2rg">
+                    <language>java</language>
+                    <body>this.car.assembel();&#xD;
+		&#xD;
+	</body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_4J6T8M6VEeuiC9HFy7u2rg" name="assembel" method="_4KlCU86VEeuiC9HFy7u2rg"/>
+                  <ownedOperation xmi:id="_4Kb4YM6VEeuiC9HFy7u2rg" name="CarDecorator" method="_4KlCUM6VEeuiC9HFy7u2rg">
+                    <eAnnotations xmi:id="_4Kb4Ys6VEeuiC9HFy7u2rg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_4Kb4Y86VEeuiC9HFy7u2rg" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_4Kb4Yc6VEeuiC9HFy7u2rg" name="car" type="_4J1bcM6VEeuiC9HFy7u2rg"/>
+                    <ownedParameter xmi:id="_4Kb4ZM6VEeuiC9HFy7u2rg" type="_4J5s4M6VEeuiC9HFy7u2rg" direction="return"/>
+                  </ownedOperation>
+                </nestedClassifier>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_4J8JIM6VEeuiC9HFy7u2rg" name="ElectronicCar" visibility="package">
+                  <eAnnotations xmi:id="_4J8JIc6VEeuiC9HFy7u2rg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_4J8JIs6VEeuiC9HFy7u2rg" key="sameFile"/>
+                  </eAnnotations>
+                  <generalization xmi:id="_4KhX8M6VEeuiC9HFy7u2rg" general="_4KgJ0M6VEeuiC9HFy7u2rg"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4KlCVM6VEeuiC9HFy7u2rg" name="ElectronicCar" specification="_4KcfcM6VEeuiC9HFy7u2rg">
+                    <ownedParameter xmi:id="_4KlCVc6VEeuiC9HFy7u2rg" name="car" type="_4J1bcM6VEeuiC9HFy7u2rg"/>
+                    <ownedParameter xmi:id="_4KlCVs6VEeuiC9HFy7u2rg" type="_4J8JIM6VEeuiC9HFy7u2rg" direction="return">
+                      <name xsi:nil="true"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>super(car);&#xD;
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4KlpYM6VEeuiC9HFy7u2rg" name="assembel" specification="_4J8wMM6VEeuiC9HFy7u2rg">
+                    <language>java</language>
+                    <body>super.assembel();&#xD;
+		System.out.println(&quot;Calling Electronic Car for Test Drive&quot;);&#xD;
+	</body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_4J8wMM6VEeuiC9HFy7u2rg" name="assembel" method="_4KlpYM6VEeuiC9HFy7u2rg"/>
+                  <ownedOperation xmi:id="_4KcfcM6VEeuiC9HFy7u2rg" name="ElectronicCar" method="_4KlCVM6VEeuiC9HFy7u2rg">
+                    <eAnnotations xmi:id="_4KdGgM6VEeuiC9HFy7u2rg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_4KdGgc6VEeuiC9HFy7u2rg" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_4Kcfcc6VEeuiC9HFy7u2rg" name="car" type="_4J1bcM6VEeuiC9HFy7u2rg"/>
+                    <ownedParameter xmi:id="_4KdGgs6VEeuiC9HFy7u2rg" type="_4J8JIM6VEeuiC9HFy7u2rg" direction="return"/>
+                  </ownedOperation>
+                </nestedClassifier>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_4J9-UM6VEeuiC9HFy7u2rg" name="PetrolCar" visibility="package">
+                  <eAnnotations xmi:id="_4J9-Uc6VEeuiC9HFy7u2rg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_4J9-Us6VEeuiC9HFy7u2rg" key="sameFile"/>
+                  </eAnnotations>
+                  <generalization xmi:id="_4KhX8c6VEeuiC9HFy7u2rg" general="_4KgJ0M6VEeuiC9HFy7u2rg"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4KlpYc6VEeuiC9HFy7u2rg" name="PetrolCar" specification="_4KdtkM6VEeuiC9HFy7u2rg">
+                    <ownedParameter xmi:id="_4KlpYs6VEeuiC9HFy7u2rg" name="car" type="_4J1bcM6VEeuiC9HFy7u2rg"/>
+                    <ownedParameter xmi:id="_4KlpY86VEeuiC9HFy7u2rg" type="_4J9-UM6VEeuiC9HFy7u2rg" direction="return">
+                      <name xsi:nil="true"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>super(car);&#xD;
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4KsXEM6VEeuiC9HFy7u2rg" name="assembel" specification="_4J9-U86VEeuiC9HFy7u2rg">
+                    <language>java</language>
+                    <body>super.assembel();&#xD;
+  		System.out.println(&quot;Calling Petrol Car for Test Drive&quot;);&#xD;
+  	</body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_4J9-U86VEeuiC9HFy7u2rg" name="assembel" method="_4KsXEM6VEeuiC9HFy7u2rg"/>
+                  <ownedOperation xmi:id="_4KdtkM6VEeuiC9HFy7u2rg" name="PetrolCar" method="_4KlpYc6VEeuiC9HFy7u2rg">
+                    <eAnnotations xmi:id="_4KeUoc6VEeuiC9HFy7u2rg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_4KeUos6VEeuiC9HFy7u2rg" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_4KeUoM6VEeuiC9HFy7u2rg" name="car" type="_4J1bcM6VEeuiC9HFy7u2rg"/>
+                    <ownedParameter xmi:id="_4KeUo86VEeuiC9HFy7u2rg" type="_4J9-UM6VEeuiC9HFy7u2rg" direction="return"/>
+                  </ownedOperation>
+                </nestedClassifier>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_4J_zgM6VEeuiC9HFy7u2rg" name="DieselCar" visibility="package">
+                  <eAnnotations xmi:id="_4J_zgc6VEeuiC9HFy7u2rg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_4J_zgs6VEeuiC9HFy7u2rg" key="sameFile"/>
+                  </eAnnotations>
+                  <generalization xmi:id="_4Kh_AM6VEeuiC9HFy7u2rg" general="_4KgJ0M6VEeuiC9HFy7u2rg"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4KsXEc6VEeuiC9HFy7u2rg" name="DieselCar" specification="_4KeUpM6VEeuiC9HFy7u2rg">
+                    <ownedParameter xmi:id="_4KsXEs6VEeuiC9HFy7u2rg" name="car" type="_4J1bcM6VEeuiC9HFy7u2rg"/>
+                    <ownedParameter xmi:id="_4KsXE86VEeuiC9HFy7u2rg" type="_4J_zgM6VEeuiC9HFy7u2rg" direction="return">
+                      <name xsi:nil="true"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>super(car);&#xD;
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4Ks-IM6VEeuiC9HFy7u2rg" name="assembel" specification="_4KBBoM6VEeuiC9HFy7u2rg">
+                    <language>java</language>
+                    <body>super.assembel();&#xD;
+		System.out.println(&quot;Calling Deisel Car for Test Drive&quot;);&#xD;
+	</body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_4KBBoM6VEeuiC9HFy7u2rg" name="assembel" method="_4Ks-IM6VEeuiC9HFy7u2rg"/>
+                  <ownedOperation xmi:id="_4KeUpM6VEeuiC9HFy7u2rg" name="DieselCar" method="_4KsXEc6VEeuiC9HFy7u2rg">
+                    <eAnnotations xmi:id="_4KeUps6VEeuiC9HFy7u2rg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_4Ke7sM6VEeuiC9HFy7u2rg" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_4KeUpc6VEeuiC9HFy7u2rg" name="car" type="_4J1bcM6VEeuiC9HFy7u2rg"/>
+                    <ownedParameter xmi:id="_4Ke7sc6VEeuiC9HFy7u2rg" type="_4J_zgM6VEeuiC9HFy7u2rg" direction="return"/>
+                  </ownedOperation>
+                </nestedClassifier>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_4KDd4M6VEeuiC9HFy7u2rg" name="DecoratorPatternClient">
+                  <eAnnotations xmi:id="_4KDd4c6VEeuiC9HFy7u2rg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_4KDd4s6VEeuiC9HFy7u2rg" key="sameFile"/>
+                  </eAnnotations>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_4Ks-Ic6VEeuiC9HFy7u2rg" name="main" specification="_4KEE8M6VEeuiC9HFy7u2rg">
+                    <ownedParameter xmi:id="_4Ks-Is6VEeuiC9HFy7u2rg" name="args">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4Ks-I86VEeuiC9HFy7u2rg" value="*"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>Car eleCar = new ElectronicCar(new BasicCar());&#xD;
+		eleCar.assembel();&#xD;
+		&#xD;
+		Car petCar = new PetrolCar(new BasicCar());&#xD;
+		petCar.assembel();&#xD;
+		&#xD;
+		Car dieCar = new DieselCar(new BasicCar());&#xD;
+		dieCar.assembel();&#xD;
+		&#xD;
+		Car petrolElectricCar = new ElectronicCar(new PetrolCar(new BasicCar()));&#xD;
+		petrolElectricCar.assembel();&#xD;
+	</body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_4KEE8M6VEeuiC9HFy7u2rg" name="main" isStatic="true" method="_4Ks-Ic6VEeuiC9HFy7u2rg">
+                    <ownedParameter xmi:id="_4KEE8c6VEeuiC9HFy7u2rg" name="args">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4KEsAM6VEeuiC9HFy7u2rg" value="*"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                </nestedClassifier>
+                <ownedOperation xmi:id="_4KEsAc6VEeuiC9HFy7u2rg" name="assembel"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_4KgJ0M6VEeuiC9HFy7u2rg" name="CarDecorator"/>
+              <packagedElement xmi:type="uml:Association" xmi:id="_4KuzUM6VEeuiC9HFy7u2rg" name="" memberEnd="_4KuzUc6VEeuiC9HFy7u2rg _4KimEM6VEeuiC9HFy7u2rg">
+                <ownedEnd xmi:id="_4KuzUc6VEeuiC9HFy7u2rg" name="" type="_4J5s4M6VEeuiC9HFy7u2rg" association="_4KuzUM6VEeuiC9HFy7u2rg"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_4EK4UM6VEeuiC9HFy7u2rg">
+      <eAnnotations xmi:id="_4ELfYM6VEeuiC9HFy7u2rg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_4ELfYc6VEeuiC9HFy7u2rg" base_Package="_3700oM6VEeuiC9HFy7u2rg">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_4J4ewc6VEeuiC9HFy7u2rg" base_Element="_4J4ewM6VEeuiC9HFy7u2rg"/>
+  <UMLLabProfile:Annotations xmi:id="_4J5F0M6VEeuiC9HFy7u2rg" base_Element="_4J4ewM6VEeuiC9HFy7u2rg">
+    <annotations xmi:id="_4J5F0c6VEeuiC9HFy7u2rg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_4J67AM6VEeuiC9HFy7u2rg" base_Element="_4J6T8M6VEeuiC9HFy7u2rg"/>
+  <UMLLabProfile:Annotations xmi:id="_4J7iEM6VEeuiC9HFy7u2rg" base_Element="_4J6T8M6VEeuiC9HFy7u2rg">
+    <annotations xmi:id="_4J7iEc6VEeuiC9HFy7u2rg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_4J8wMc6VEeuiC9HFy7u2rg" base_Element="_4J8wMM6VEeuiC9HFy7u2rg"/>
+  <UMLLabProfile:Annotations xmi:id="_4J9XQM6VEeuiC9HFy7u2rg" base_Element="_4J8wMM6VEeuiC9HFy7u2rg">
+    <annotations xmi:id="_4J9XQc6VEeuiC9HFy7u2rg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_4J-lYM6VEeuiC9HFy7u2rg" base_Element="_4J9-U86VEeuiC9HFy7u2rg"/>
+  <UMLLabProfile:Annotations xmi:id="_4J_McM6VEeuiC9HFy7u2rg" base_Element="_4J9-U86VEeuiC9HFy7u2rg">
+    <annotations xmi:id="_4J_Mcc6VEeuiC9HFy7u2rg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_4KBosM6VEeuiC9HFy7u2rg" base_Element="_4KBBoM6VEeuiC9HFy7u2rg"/>
+  <UMLLabProfile:Annotations xmi:id="_4KCPwM6VEeuiC9HFy7u2rg" base_Element="_4KBBoM6VEeuiC9HFy7u2rg">
+    <annotations xmi:id="_4KCPwc6VEeuiC9HFy7u2rg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_4Kgw4M6VEeuiC9HFy7u2rg" base_Element="_4KgJ0M6VEeuiC9HFy7u2rg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_4Kj0MM6VEeuiC9HFy7u2rg" base_Element="_4KimEM6VEeuiC9HFy7u2rg"/>
+  <UMLLabProfile:Reference xmi:id="_4KvaYM6VEeuiC9HFy7u2rg" base_Element="_4KuzUM6VEeuiC9HFy7u2rg"/>
+</xmi:XMI>

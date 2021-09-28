@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_3-CbIM6VEeuiC9HFy7u2rg">
+  <modelElement href="DecoratorPattern.uml#_4Jv74M6VEeuiC9HFy7u2rg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_4N74UM6VEeuiC9HFy7u2rg" sourceAnchor="137.0,42.0" targetAnchor="0.0,42.0" dashed="true" superClass="_4OFCQM6VEeuiC9HFy7u2rg" subClass="_4OTrwM6VEeuiC9HFy7u2rg">
+    <modelElement href="DecoratorPattern.uml#_4KaqQM6VEeuiC9HFy7u2rg"/>
+    <bendpoints xmi:id="_9JdXIM6VEeuiC9HFy7u2rg" sourceX="30" targetX="-31" targetY="140"/>
+    <bendpoints xmi:id="_9JdXIc6VEeuiC9HFy7u2rg" sourceX="30" sourceY="-140" targetX="-31"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_4N74Uc6VEeuiC9HFy7u2rg" sourceAnchor="318.0,71.0" targetAnchor="0.0,42.0" dashed="true" superClass="_4OFCQM6VEeuiC9HFy7u2rg" subClass="_4OVg8M6VEeuiC9HFy7u2rg">
+    <modelElement href="DecoratorPattern.uml#_4KbRUM6VEeuiC9HFy7u2rg"/>
+    <bendpoints xmi:id="_9Jd-Mc6VEeuiC9HFy7u2rg" sourceX="462" targetX="-31" targetY="63"/>
+    <bendpoints xmi:id="_9JelQM6VEeuiC9HFy7u2rg" sourceX="462" sourceY="-63" targetX="-31"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_4N74Us6VEeuiC9HFy7u2rg" sourceAnchor="159.0,0.0" targetAnchor="0.0,12.0" target="_4OFCQM6VEeuiC9HFy7u2rg" source="_4OVg8M6VEeuiC9HFy7u2rg">
+    <modelElement href="DecoratorPattern.uml#_4KuzUM6VEeuiC9HFy7u2rg"/>
+    <bendpoints xmi:id="_9Jd-MM6VEeuiC9HFy7u2rg" sourceY="-22" targetX="-652"/>
+    <stereotypes xmi:id="_4N9tgc6VEeuiC9HFy7u2rg" name="Reference">
+      <modelElement href="DecoratorPattern.uml#_4KvaYM6VEeuiC9HFy7u2rg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_4N9GcM6VEeuiC9HFy7u2rg" text="">
+      <visualProperties xmi:id="_4xnNIM6VEeuiC9HFy7u2rg" position="305.5,2.4999999999999716"/>
+    </nameVisual>
+    <sourceRole xmi:id="_4N9Gcc6VEeuiC9HFy7u2rg" aggregationKind="NONE" name="">
+      <modelElement href="DecoratorPattern.uml#_4KuzUc6VEeuiC9HFy7u2rg"/>
+      <visualProperties xmi:id="_4xl_Bc6VEeuiC9HFy7u2rg" position="159.5,-19.5"/>
+      <visibility xmi:id="_4OAw0c6VEeuiC9HFy7u2rg" label="+"/>
+      <cardinality xmi:id="_4OAw0M6VEeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_4N9tgM6VEeuiC9HFy7u2rg" aggregationKind="NONE" name="car" navigable="true">
+      <modelElement href="DecoratorPattern.uml#_4KimEM6VEeuiC9HFy7u2rg"/>
+      <visualProperties xmi:id="_4xn0MM6VEeuiC9HFy7u2rg" position="-75.375,2.4999999999999574"/>
+      <visibility xmi:id="_4OAw086VEeuiC9HFy7u2rg" label="#"/>
+      <cardinality xmi:id="_4OAw0s6VEeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_wsKTgc6WEeuiC9HFy7u2rg" targetItem="_4OVg8M6VEeuiC9HFy7u2rg" sourceItem="_wsKTgM6WEeuiC9HFy7u2rg"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_4OFCQM6VEeuiC9HFy7u2rg" name="Car" associationsIn="_4N74Us6VEeuiC9HFy7u2rg" subclassedBy="_4N74UM6VEeuiC9HFy7u2rg _4N74Uc6VEeuiC9HFy7u2rg">
+    <modelElement href="DecoratorPattern.uml#_4J1bcM6VEeuiC9HFy7u2rg"/>
+    <visualProperties xmi:id="_4OFCQc6VEeuiC9HFy7u2rg" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4OFCQs6VEeuiC9HFy7u2rg" label="~"/>
+    <operations xmi:id="_4OFCQ86VEeuiC9HFy7u2rg" name="assembel">
+      <modelElement href="DecoratorPattern.uml#_4KEsAc6VEeuiC9HFy7u2rg"/>
+      <visibility xmi:id="_4OFCRM6VEeuiC9HFy7u2rg" label="+"/>
+      <cardinality xmi:id="_4OFCRc6VEeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+    </operations>
+    <memberTypes xmi:id="_4OFCRs6VEeuiC9HFy7u2rg" name="BasicCar">
+      <modelElement href="DecoratorPattern.uml#_4J2pkM6VEeuiC9HFy7u2rg"/>
+      <keywords xmi:id="_4OFCR86VEeuiC9HFy7u2rg" keyword="sameFile"/>
+      <visibility xmi:id="_4OFCSM6VEeuiC9HFy7u2rg" label="~"/>
+      <operations xmi:id="_4OFCSc6VEeuiC9HFy7u2rg" name="assembel">
+        <modelElement href="DecoratorPattern.uml#_4J4ewM6VEeuiC9HFy7u2rg"/>
+        <stereotypes xmi:id="_4OFCSs6VEeuiC9HFy7u2rg" name="LegacyStyledElement">
+          <modelElement href="DecoratorPattern.uml#_4J4ewc6VEeuiC9HFy7u2rg"/>
+        </stereotypes>
+        <stereotypes xmi:id="_4OFCS86VEeuiC9HFy7u2rg" name="Annotations">
+          <modelElement href="DecoratorPattern.uml#_4J5F0M6VEeuiC9HFy7u2rg"/>
+        </stereotypes>
+        <visibility xmi:id="_4OFCTM6VEeuiC9HFy7u2rg" label="+"/>
+        <cardinality xmi:id="_4OFCTc6VEeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+      </operations>
+    </memberTypes>
+    <memberTypes xmi:id="_4OFCTs6VEeuiC9HFy7u2rg" name="CarDecorator">
+      <modelElement href="DecoratorPattern.uml#_4J5s4M6VEeuiC9HFy7u2rg"/>
+      <keywords xmi:id="_4OFCT86VEeuiC9HFy7u2rg" keyword="sameFile"/>
+      <visibility xmi:id="_4OFCUM6VEeuiC9HFy7u2rg" label="~"/>
+      <attributes xmi:id="_4OFCUc6VEeuiC9HFy7u2rg" name="car">
+        <modelElement href="DecoratorPattern.uml#_4KimEM6VEeuiC9HFy7u2rg"/>
+        <stereotypes xmi:id="_4OFCUs6VEeuiC9HFy7u2rg" name="LegacyStyledElement">
+          <modelElement href="DecoratorPattern.uml#_4Kj0MM6VEeuiC9HFy7u2rg"/>
+        </stereotypes>
+        <visibility xmi:id="_4OFCU86VEeuiC9HFy7u2rg" label="#"/>
+        <cardinality xmi:id="_4OFCVM6VEeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+        <type xmi:id="_4OFCVc6VEeuiC9HFy7u2rg" name="Car">
+          <modelElement href="DecoratorPattern.uml#_4J1bcM6VEeuiC9HFy7u2rg"/>
+        </type>
+      </attributes>
+      <operations xmi:id="_4OFCVs6VEeuiC9HFy7u2rg" name="assembel">
+        <modelElement href="DecoratorPattern.uml#_4J6T8M6VEeuiC9HFy7u2rg"/>
+        <stereotypes xmi:id="_4OFCV86VEeuiC9HFy7u2rg" name="LegacyStyledElement">
+          <modelElement href="DecoratorPattern.uml#_4J67AM6VEeuiC9HFy7u2rg"/>
+        </stereotypes>
+        <stereotypes xmi:id="_4OFCWM6VEeuiC9HFy7u2rg" name="Annotations">
+          <modelElement href="DecoratorPattern.uml#_4J7iEM6VEeuiC9HFy7u2rg"/>
+        </stereotypes>
+        <visibility xmi:id="_4OFCWc6VEeuiC9HFy7u2rg" label="+"/>
+        <cardinality xmi:id="_4OFCWs6VEeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+      </operations>
+      <operations xmi:id="_4OFCW86VEeuiC9HFy7u2rg" name="CarDecorator">
+        <modelElement href="DecoratorPattern.uml#_4Kb4YM6VEeuiC9HFy7u2rg"/>
+        <keywords xmi:id="_4OFCXM6VEeuiC9HFy7u2rg" keyword="create"/>
+        <visibility xmi:id="_4OFCXc6VEeuiC9HFy7u2rg" label="+"/>
+        <cardinality xmi:id="_4OFCXs6VEeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+        <outParameters xmi:id="_4OFCX86VEeuiC9HFy7u2rg">
+          <modelElement href="DecoratorPattern.uml#_4Kb4ZM6VEeuiC9HFy7u2rg"/>
+          <type xmi:id="_4OFCYM6VEeuiC9HFy7u2rg" name="CarDecorator">
+            <modelElement href="DecoratorPattern.uml#_4J5s4M6VEeuiC9HFy7u2rg"/>
+          </type>
+        </outParameters>
+        <parameters xmi:id="_4OFCYc6VEeuiC9HFy7u2rg" name="car">
+          <modelElement href="DecoratorPattern.uml#_4Kb4Yc6VEeuiC9HFy7u2rg"/>
+          <cardinality xmi:id="_4OFCYs6VEeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+          <type xmi:id="_4OFCY86VEeuiC9HFy7u2rg" name="Car">
+            <modelElement href="DecoratorPattern.uml#_4J1bcM6VEeuiC9HFy7u2rg"/>
+          </type>
+        </parameters>
+      </operations>
+    </memberTypes>
+    <memberTypes xmi:id="_4OFCZM6VEeuiC9HFy7u2rg" name="ElectronicCar">
+      <modelElement href="DecoratorPattern.uml#_4J8JIM6VEeuiC9HFy7u2rg"/>
+      <keywords xmi:id="_4OFCZc6VEeuiC9HFy7u2rg" keyword="sameFile"/>
+      <visibility xmi:id="_4OFCZs6VEeuiC9HFy7u2rg" label="~"/>
+      <operations xmi:id="_4OFCZ86VEeuiC9HFy7u2rg" name="assembel">
+        <modelElement href="DecoratorPattern.uml#_4J8wMM6VEeuiC9HFy7u2rg"/>
+        <stereotypes xmi:id="_4OFCaM6VEeuiC9HFy7u2rg" name="LegacyStyledElement">
+          <modelElement href="DecoratorPattern.uml#_4J8wMc6VEeuiC9HFy7u2rg"/>
+        </stereotypes>
+        <stereotypes xmi:id="_4OFCac6VEeuiC9HFy7u2rg" name="Annotations">
+          <modelElement href="DecoratorPattern.uml#_4J9XQM6VEeuiC9HFy7u2rg"/>
+        </stereotypes>
+        <visibility xmi:id="_4OFCas6VEeuiC9HFy7u2rg" label="+"/>
+        <cardinality xmi:id="_4OFCa86VEeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+      </operations>
+      <operations xmi:id="_4OFCbM6VEeuiC9HFy7u2rg" name="ElectronicCar">
+        <modelElement href="DecoratorPattern.uml#_4KcfcM6VEeuiC9HFy7u2rg"/>
+        <keywords xmi:id="_4OFCbc6VEeuiC9HFy7u2rg" keyword="create"/>
+        <visibility xmi:id="_4OFCbs6VEeuiC9HFy7u2rg" label="+"/>
+        <cardinality xmi:id="_4OFCb86VEeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+        <outParameters xmi:id="_4OFCcM6VEeuiC9HFy7u2rg">
+          <modelElement href="DecoratorPattern.uml#_4KdGgs6VEeuiC9HFy7u2rg"/>
+          <type xmi:id="_4OFCcc6VEeuiC9HFy7u2rg" name="ElectronicCar">
+            <modelElement href="DecoratorPattern.uml#_4J8JIM6VEeuiC9HFy7u2rg"/>
+          </type>
+        </outParameters>
+        <parameters xmi:id="_4OFCcs6VEeuiC9HFy7u2rg" name="car">
+          <modelElement href="DecoratorPattern.uml#_4Kcfcc6VEeuiC9HFy7u2rg"/>
+          <cardinality xmi:id="_4OFCc86VEeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+          <type xmi:id="_4OFCdM6VEeuiC9HFy7u2rg" name="Car">
+            <modelElement href="DecoratorPattern.uml#_4J1bcM6VEeuiC9HFy7u2rg"/>
+          </type>
+        </parameters>
+      </operations>
+    </memberTypes>
+    <memberTypes xmi:id="_4OFCdc6VEeuiC9HFy7u2rg" name="PetrolCar">
+      <modelElement href="DecoratorPattern.uml#_4J9-UM6VEeuiC9HFy7u2rg"/>
+      <keywords xmi:id="_4OFCds6VEeuiC9HFy7u2rg" keyword="sameFile"/>
+      <visibility xmi:id="_4OFCd86VEeuiC9HFy7u2rg" label="~"/>
+      <operations xmi:id="_4OFCeM6VEeuiC9HFy7u2rg" name="assembel">
+        <modelElement href="DecoratorPattern.uml#_4J9-U86VEeuiC9HFy7u2rg"/>
+        <stereotypes xmi:id="_4OFCec6VEeuiC9HFy7u2rg" name="LegacyStyledElement">
+          <modelElement href="DecoratorPattern.uml#_4J-lYM6VEeuiC9HFy7u2rg"/>
+        </stereotypes>
+        <stereotypes xmi:id="_4OFCes6VEeuiC9HFy7u2rg" name="Annotations">
+          <modelElement href="DecoratorPattern.uml#_4J_McM6VEeuiC9HFy7u2rg"/>
+        </stereotypes>
+        <visibility xmi:id="_4OFCe86VEeuiC9HFy7u2rg" label="+"/>
+        <cardinality xmi:id="_4OFCfM6VEeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+      </operations>
+      <operations xmi:id="_4OFCfc6VEeuiC9HFy7u2rg" name="PetrolCar">
+        <modelElement href="DecoratorPattern.uml#_4KdtkM6VEeuiC9HFy7u2rg"/>
+        <keywords xmi:id="_4OFCfs6VEeuiC9HFy7u2rg" keyword="create"/>
+        <visibility xmi:id="_4OFCf86VEeuiC9HFy7u2rg" label="+"/>
+        <cardinality xmi:id="_4OFCgM6VEeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+        <outParameters xmi:id="_4OFCgc6VEeuiC9HFy7u2rg">
+          <modelElement href="DecoratorPattern.uml#_4KeUo86VEeuiC9HFy7u2rg"/>
+          <type xmi:id="_4OFCgs6VEeuiC9HFy7u2rg" name="PetrolCar">
+            <modelElement href="DecoratorPattern.uml#_4J9-UM6VEeuiC9HFy7u2rg"/>
+          </type>
+        </outParameters>
+        <parameters xmi:id="_4OFCg86VEeuiC9HFy7u2rg" name="car">
+          <modelElement href="DecoratorPattern.uml#_4KeUoM6VEeuiC9HFy7u2rg"/>
+          <cardinality xmi:id="_4OFChM6VEeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+          <type xmi:id="_4OFChc6VEeuiC9HFy7u2rg" name="Car">
+            <modelElement href="DecoratorPattern.uml#_4J1bcM6VEeuiC9HFy7u2rg"/>
+          </type>
+        </parameters>
+      </operations>
+    </memberTypes>
+    <memberTypes xmi:id="_4OFChs6VEeuiC9HFy7u2rg" name="DieselCar">
+      <modelElement href="DecoratorPattern.uml#_4J_zgM6VEeuiC9HFy7u2rg"/>
+      <keywords xmi:id="_4OFCh86VEeuiC9HFy7u2rg" keyword="sameFile"/>
+      <visibility xmi:id="_4OFCiM6VEeuiC9HFy7u2rg" label="~"/>
+      <operations xmi:id="_4OFCic6VEeuiC9HFy7u2rg" name="assembel">
+        <modelElement href="DecoratorPattern.uml#_4KBBoM6VEeuiC9HFy7u2rg"/>
+        <stereotypes xmi:id="_4OFCis6VEeuiC9HFy7u2rg" name="LegacyStyledElement">
+          <modelElement href="DecoratorPattern.uml#_4KBosM6VEeuiC9HFy7u2rg"/>
+        </stereotypes>
+        <stereotypes xmi:id="_4OFCi86VEeuiC9HFy7u2rg" name="Annotations">
+          <modelElement href="DecoratorPattern.uml#_4KCPwM6VEeuiC9HFy7u2rg"/>
+        </stereotypes>
+        <visibility xmi:id="_4OFCjM6VEeuiC9HFy7u2rg" label="+"/>
+        <cardinality xmi:id="_4OFCjc6VEeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+      </operations>
+      <operations xmi:id="_4OFCjs6VEeuiC9HFy7u2rg" name="DieselCar">
+        <modelElement href="DecoratorPattern.uml#_4KeUpM6VEeuiC9HFy7u2rg"/>
+        <keywords xmi:id="_4OFCj86VEeuiC9HFy7u2rg" keyword="create"/>
+        <visibility xmi:id="_4OFCkM6VEeuiC9HFy7u2rg" label="+"/>
+        <cardinality xmi:id="_4OFCkc6VEeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+        <outParameters xmi:id="_4OFCks6VEeuiC9HFy7u2rg">
+          <modelElement href="DecoratorPattern.uml#_4Ke7sc6VEeuiC9HFy7u2rg"/>
+          <type xmi:id="_4OFCk86VEeuiC9HFy7u2rg" name="DieselCar">
+            <modelElement href="DecoratorPattern.uml#_4J_zgM6VEeuiC9HFy7u2rg"/>
+          </type>
+        </outParameters>
+        <parameters xmi:id="_4OFClM6VEeuiC9HFy7u2rg" name="car">
+          <modelElement href="DecoratorPattern.uml#_4KeUpc6VEeuiC9HFy7u2rg"/>
+          <cardinality xmi:id="_4OFClc6VEeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+          <type xmi:id="_4OFCls6VEeuiC9HFy7u2rg" name="Car">
+            <modelElement href="DecoratorPattern.uml#_4J1bcM6VEeuiC9HFy7u2rg"/>
+          </type>
+        </parameters>
+      </operations>
+    </memberTypes>
+    <memberTypes xmi:id="_4OFCl86VEeuiC9HFy7u2rg" name="DecoratorPatternClient">
+      <modelElement href="DecoratorPattern.uml#_4KDd4M6VEeuiC9HFy7u2rg"/>
+      <keywords xmi:id="_4OFCmM6VEeuiC9HFy7u2rg" keyword="sameFile"/>
+      <visibility xmi:id="_4OFCmc6VEeuiC9HFy7u2rg" label="+"/>
+      <operations xmi:id="_4OFCms6VEeuiC9HFy7u2rg" name="main" staticOperation="true">
+        <modelElement href="DecoratorPattern.uml#_4KEE8M6VEeuiC9HFy7u2rg"/>
+        <visibility xmi:id="_4OFCm86VEeuiC9HFy7u2rg" label="+"/>
+        <cardinality xmi:id="_4OFCnM6VEeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+        <parameters xmi:id="_4OFCnc6VEeuiC9HFy7u2rg" name="args">
+          <modelElement href="DecoratorPattern.uml#_4KEE8c6VEeuiC9HFy7u2rg"/>
+          <cardinality xmi:id="_4OFCns6VEeuiC9HFy7u2rg" label="1..*" max="-1" min="1"/>
+          <type xmi:id="_4OFCn86VEeuiC9HFy7u2rg" name="String">
+            <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </type>
+        </parameters>
+      </operations>
+    </memberTypes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4OTrwM6VEeuiC9HFy7u2rg" name="BasicCar" generalizations="_4N74UM6VEeuiC9HFy7u2rg">
+    <modelElement href="DecoratorPattern.uml#_4J2pkM6VEeuiC9HFy7u2rg"/>
+    <visualProperties xmi:id="_4OTrwc6VEeuiC9HFy7u2rg" position="-168.0,170.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_4OTrws6VEeuiC9HFy7u2rg" keyword="sameFile"/>
+    <visibility xmi:id="_4OTrw86VEeuiC9HFy7u2rg" label="~"/>
+    <operations xmi:id="_4OTrxM6VEeuiC9HFy7u2rg" name="assembel">
+      <modelElement href="DecoratorPattern.uml#_4J4ewM6VEeuiC9HFy7u2rg"/>
+      <visibility xmi:id="_4OTrxc6VEeuiC9HFy7u2rg" label="+"/>
+      <cardinality xmi:id="_4OTrxs6VEeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4OVg8M6VEeuiC9HFy7u2rg" comments="_wsKTgM6WEeuiC9HFy7u2rg" targetConnectionVisual="_wsKTgc6WEeuiC9HFy7u2rg" name="CarDecorator" associationsOut="_4N74Us6VEeuiC9HFy7u2rg" generalizations="_4N74Uc6VEeuiC9HFy7u2rg">
+    <modelElement href="DecoratorPattern.uml#_4J5s4M6VEeuiC9HFy7u2rg"/>
+    <visualProperties xmi:id="_4OVg8c6VEeuiC9HFy7u2rg" position="-781.0,64.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_4OVg8s6VEeuiC9HFy7u2rg" keyword="sameFile"/>
+    <visibility xmi:id="_4OVg886VEeuiC9HFy7u2rg" label="~"/>
+    <attributes xmi:id="_4OVg9M6VEeuiC9HFy7u2rg" name="car">
+      <modelElement href="DecoratorPattern.uml#_4KimEM6VEeuiC9HFy7u2rg"/>
+      <visibility xmi:id="_4OVg9c6VEeuiC9HFy7u2rg" label="#"/>
+      <cardinality xmi:id="_4OVg9s6VEeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+      <type xmi:id="_4OVg986VEeuiC9HFy7u2rg" name="Car">
+        <modelElement href="DecoratorPattern.uml#_4J1bcM6VEeuiC9HFy7u2rg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_4OVg-M6VEeuiC9HFy7u2rg" name="assembel">
+      <modelElement href="DecoratorPattern.uml#_4J6T8M6VEeuiC9HFy7u2rg"/>
+      <visibility xmi:id="_4OVg-c6VEeuiC9HFy7u2rg" label="+"/>
+      <cardinality xmi:id="_4OVg-s6VEeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_4OVg-86VEeuiC9HFy7u2rg" name="CarDecorator">
+      <modelElement href="DecoratorPattern.uml#_4Kb4YM6VEeuiC9HFy7u2rg"/>
+      <keywords xmi:id="_4OVg_M6VEeuiC9HFy7u2rg" keyword="create"/>
+      <visibility xmi:id="_4OVg_c6VEeuiC9HFy7u2rg" label="+"/>
+      <cardinality xmi:id="_4OVg_s6VEeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4OVg_86VEeuiC9HFy7u2rg">
+        <modelElement href="DecoratorPattern.uml#_4Kb4ZM6VEeuiC9HFy7u2rg"/>
+        <type xmi:id="_4OVhAM6VEeuiC9HFy7u2rg" name="CarDecorator">
+          <modelElement href="DecoratorPattern.uml#_4J5s4M6VEeuiC9HFy7u2rg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4OVhAc6VEeuiC9HFy7u2rg" name="car">
+        <modelElement href="DecoratorPattern.uml#_4Kb4Yc6VEeuiC9HFy7u2rg"/>
+        <cardinality xmi:id="_4OVhAs6VEeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+        <type xmi:id="_4OVhA86VEeuiC9HFy7u2rg" name="Car">
+          <modelElement href="DecoratorPattern.uml#_4J1bcM6VEeuiC9HFy7u2rg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4OvwoM6VEeuiC9HFy7u2rg" name="PetrolCar">
+    <modelElement href="DecoratorPattern.uml#_4J9-UM6VEeuiC9HFy7u2rg"/>
+    <visualProperties xmi:id="_4Ovwoc6VEeuiC9HFy7u2rg" position="-411.0,311.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_4Ovwos6VEeuiC9HFy7u2rg" keyword="sameFile"/>
+    <visibility xmi:id="_4Ovwo86VEeuiC9HFy7u2rg" label="~"/>
+    <operations xmi:id="_4OvwpM6VEeuiC9HFy7u2rg" name="assembel">
+      <modelElement href="DecoratorPattern.uml#_4J9-U86VEeuiC9HFy7u2rg"/>
+      <visibility xmi:id="_4Ovwpc6VEeuiC9HFy7u2rg" label="+"/>
+      <cardinality xmi:id="_4Ovwps6VEeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_4Ovwp86VEeuiC9HFy7u2rg" name="PetrolCar">
+      <modelElement href="DecoratorPattern.uml#_4KdtkM6VEeuiC9HFy7u2rg"/>
+      <keywords xmi:id="_4OvwqM6VEeuiC9HFy7u2rg" keyword="create"/>
+      <visibility xmi:id="_4Ovwqc6VEeuiC9HFy7u2rg" label="+"/>
+      <cardinality xmi:id="_4Ovwqs6VEeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4Ovwq86VEeuiC9HFy7u2rg">
+        <modelElement href="DecoratorPattern.uml#_4KeUo86VEeuiC9HFy7u2rg"/>
+        <type xmi:id="_4OvwrM6VEeuiC9HFy7u2rg" name="PetrolCar">
+          <modelElement href="DecoratorPattern.uml#_4J9-UM6VEeuiC9HFy7u2rg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4Ovwrc6VEeuiC9HFy7u2rg" name="car">
+        <modelElement href="DecoratorPattern.uml#_4KeUoM6VEeuiC9HFy7u2rg"/>
+        <cardinality xmi:id="_4Ovwrs6VEeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+        <type xmi:id="_4Ovwr86VEeuiC9HFy7u2rg" name="Car">
+          <modelElement href="DecoratorPattern.uml#_4J1bcM6VEeuiC9HFy7u2rg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4OstUM6VEeuiC9HFy7u2rg" name="ElectronicCar">
+    <modelElement href="DecoratorPattern.uml#_4J8JIM6VEeuiC9HFy7u2rg"/>
+    <visualProperties xmi:id="_4OstUc6VEeuiC9HFy7u2rg" position="-779.0,306.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_4OstUs6VEeuiC9HFy7u2rg" keyword="sameFile"/>
+    <visibility xmi:id="_4OstU86VEeuiC9HFy7u2rg" label="~"/>
+    <operations xmi:id="_4OstVM6VEeuiC9HFy7u2rg" name="assembel">
+      <modelElement href="DecoratorPattern.uml#_4J8wMM6VEeuiC9HFy7u2rg"/>
+      <visibility xmi:id="_4OstVc6VEeuiC9HFy7u2rg" label="+"/>
+      <cardinality xmi:id="_4OstVs6VEeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_4OstV86VEeuiC9HFy7u2rg" name="ElectronicCar">
+      <modelElement href="DecoratorPattern.uml#_4KcfcM6VEeuiC9HFy7u2rg"/>
+      <keywords xmi:id="_4OstWM6VEeuiC9HFy7u2rg" keyword="create"/>
+      <visibility xmi:id="_4OstWc6VEeuiC9HFy7u2rg" label="+"/>
+      <cardinality xmi:id="_4OstWs6VEeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4OstW86VEeuiC9HFy7u2rg">
+        <modelElement href="DecoratorPattern.uml#_4KdGgs6VEeuiC9HFy7u2rg"/>
+        <type xmi:id="_4OstXM6VEeuiC9HFy7u2rg" name="ElectronicCar">
+          <modelElement href="DecoratorPattern.uml#_4J8JIM6VEeuiC9HFy7u2rg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4OstXc6VEeuiC9HFy7u2rg" name="car">
+        <modelElement href="DecoratorPattern.uml#_4Kcfcc6VEeuiC9HFy7u2rg"/>
+        <cardinality xmi:id="_4OstXs6VEeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+        <type xmi:id="_4OstX86VEeuiC9HFy7u2rg" name="Car">
+          <modelElement href="DecoratorPattern.uml#_4J1bcM6VEeuiC9HFy7u2rg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4O13QM6VEeuiC9HFy7u2rg" name="DieselCar">
+    <modelElement href="DecoratorPattern.uml#_4J_zgM6VEeuiC9HFy7u2rg"/>
+    <visualProperties xmi:id="_4O13Qc6VEeuiC9HFy7u2rg" position="-90.0,307.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_4O13Qs6VEeuiC9HFy7u2rg" keyword="sameFile"/>
+    <visibility xmi:id="_4O13Q86VEeuiC9HFy7u2rg" label="~"/>
+    <operations xmi:id="_4O13RM6VEeuiC9HFy7u2rg" name="assembel">
+      <modelElement href="DecoratorPattern.uml#_4KBBoM6VEeuiC9HFy7u2rg"/>
+      <visibility xmi:id="_4O13Rc6VEeuiC9HFy7u2rg" label="+"/>
+      <cardinality xmi:id="_4O13Rs6VEeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_4O13R86VEeuiC9HFy7u2rg" name="DieselCar">
+      <modelElement href="DecoratorPattern.uml#_4KeUpM6VEeuiC9HFy7u2rg"/>
+      <keywords xmi:id="_4O13SM6VEeuiC9HFy7u2rg" keyword="create"/>
+      <visibility xmi:id="_4O13Sc6VEeuiC9HFy7u2rg" label="+"/>
+      <cardinality xmi:id="_4O13Ss6VEeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4O13S86VEeuiC9HFy7u2rg">
+        <modelElement href="DecoratorPattern.uml#_4Ke7sc6VEeuiC9HFy7u2rg"/>
+        <type xmi:id="_4O13TM6VEeuiC9HFy7u2rg" name="DieselCar">
+          <modelElement href="DecoratorPattern.uml#_4J_zgM6VEeuiC9HFy7u2rg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4O13Tc6VEeuiC9HFy7u2rg" name="car">
+        <modelElement href="DecoratorPattern.uml#_4KeUpc6VEeuiC9HFy7u2rg"/>
+        <cardinality xmi:id="_4O13Ts6VEeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+        <type xmi:id="_4O13T86VEeuiC9HFy7u2rg" name="Car">
+          <modelElement href="DecoratorPattern.uml#_4J1bcM6VEeuiC9HFy7u2rg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4O4TgM6VEeuiC9HFy7u2rg" name="DecoratorPatternClient">
+    <modelElement href="DecoratorPattern.uml#_4KDd4M6VEeuiC9HFy7u2rg"/>
+    <visualProperties xmi:id="_4O4Tgc6VEeuiC9HFy7u2rg" position="209.0,307.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_4O4Tgs6VEeuiC9HFy7u2rg" keyword="sameFile"/>
+    <visibility xmi:id="_4O4Tg86VEeuiC9HFy7u2rg" label="+"/>
+    <operations xmi:id="_4O4ThM6VEeuiC9HFy7u2rg" name="main" staticOperation="true">
+      <modelElement href="DecoratorPattern.uml#_4KEE8M6VEeuiC9HFy7u2rg"/>
+      <visibility xmi:id="_4O4Thc6VEeuiC9HFy7u2rg" label="+"/>
+      <cardinality xmi:id="_4O4Ths6VEeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4O4Th86VEeuiC9HFy7u2rg" name="args">
+        <modelElement href="DecoratorPattern.uml#_4KEE8c6VEeuiC9HFy7u2rg"/>
+        <cardinality xmi:id="_4O4TiM6VEeuiC9HFy7u2rg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_4O4Tic6VEeuiC9HFy7u2rg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_wsKTgM6WEeuiC9HFy7u2rg" sourceConnectionVisual="_wsKTgc6WEeuiC9HFy7u2rg" text="Important Class in the Decorato Patttern*" item="_4OVg8M6VEeuiC9HFy7u2rg">
+    <modelElement href="DecoratorPattern.uml#_wr5NwM6WEeuiC9HFy7u2rg"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

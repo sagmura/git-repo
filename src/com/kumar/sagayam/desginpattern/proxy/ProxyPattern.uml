@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_WQRpYM58EeuiC9HFy7u2rg" name="ProxyPattern">
+    <eAnnotations xmi:id="_WcgHgM58EeuiC9HFy7u2rg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_WcgHgc58EeuiC9HFy7u2rg" source="codegen">
+        <details xmi:id="_WcgHgs58EeuiC9HFy7u2rg" key="codegenDirectory" value="/DesignPattern/src"/>
+        <details xmi:id="_WkeXwM58EeuiC9HFy7u2rg" key="AssociatedSourceCode" value="/DesignPattern/src/com/kumar/sagayam/desginpattern/proxy/ProxyPatternExecution.java;147184979/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_WirA8M58EeuiC9HFy7u2rg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_WirA8c58EeuiC9HFy7u2rg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_WirA8s58EeuiC9HFy7u2rg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_WirA8858EeuiC9HFy7u2rg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_WirA9M58EeuiC9HFy7u2rg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_WirA9c58EeuiC9HFy7u2rg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_WirA9s58EeuiC9HFy7u2rg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_WiroAM58EeuiC9HFy7u2rg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_WiroAc58EeuiC9HFy7u2rg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Wh6L8M58EeuiC9HFy7u2rg" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Wh6zAM58EeuiC9HFy7u2rg" name="kumar">
+        <packagedElement xmi:type="uml:Package" xmi:id="_Wh7aEM58EeuiC9HFy7u2rg" name="sagayam">
+          <packagedElement xmi:type="uml:Package" xmi:id="_Wh92UM58EeuiC9HFy7u2rg" name="desginpattern">
+            <packagedElement xmi:type="uml:Package" xmi:id="_WiYGAM58EeuiC9HFy7u2rg" name="proxy">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_Win9oM58EeuiC9HFy7u2rg" name="ProxyOpertaionExecuter" visibility="package">
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_WiqZ4M58EeuiC9HFy7u2rg" name="ProxyExecuterImpl" visibility="package">
+                  <eAnnotations xmi:id="_WiqZ4c58EeuiC9HFy7u2rg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_WiqZ4s58EeuiC9HFy7u2rg" key="sameFile"/>
+                  </eAnnotations>
+                  <interfaceRealization xmi:id="_WjYLkM58EeuiC9HFy7u2rg" client="_WiqZ4M58EeuiC9HFy7u2rg" supplier="_Win9oM58EeuiC9HFy7u2rg" contract="_Win9oM58EeuiC9HFy7u2rg"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WjoqQM58EeuiC9HFy7u2rg" name="executeFilter" specification="_WisPEM58EeuiC9HFy7u2rg">
+                    <ownedParameter xmi:id="_WjoqQc58EeuiC9HFy7u2rg" name="filterName">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>System.out.println(&quot;Applying Filter to you network policy: &quot;+filterName);&#xD;
+	</body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_WisPEM58EeuiC9HFy7u2rg" name="executeFilter" method="_WjoqQM58EeuiC9HFy7u2rg" raisedException="_WjeSMs58EeuiC9HFy7u2rg">
+                    <ownedParameter xmi:id="_WisPEc58EeuiC9HFy7u2rg" name="filterName">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                </nestedClassifier>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_WitdMc58EeuiC9HFy7u2rg" name="ClientProxyExecutor" visibility="package">
+                  <eAnnotations xmi:id="_WiuEQM58EeuiC9HFy7u2rg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_WiuEQc58EeuiC9HFy7u2rg" key="sameFile"/>
+                  </eAnnotations>
+                  <ownedAttribute xmi:id="_WjjKsM58EeuiC9HFy7u2rg" name="isAdminUser" visibility="package">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_WjkY0M58EeuiC9HFy7u2rg" name="proxyImpl" visibility="package" type="_WjgHYM58EeuiC9HFy7u2rg" association="_Wjs7sM58EeuiC9HFy7u2rg"/>
+                  <ownedAttribute xmi:id="_WjncIc58EeuiC9HFy7u2rg" name="user" visibility="package">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedAttribute>
+                  <interfaceRealization xmi:id="_WjYyoM58EeuiC9HFy7u2rg" client="_WitdMc58EeuiC9HFy7u2rg" supplier="_Win9oM58EeuiC9HFy7u2rg" contract="_Win9oM58EeuiC9HFy7u2rg"/>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WjpRUM58EeuiC9HFy7u2rg" name="ClientProxyExecutor" specification="_WiurUM58EeuiC9HFy7u2rg">
+                    <ownedParameter xmi:id="_WjpRUc58EeuiC9HFy7u2rg" name="userName">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_WjpRUs58EeuiC9HFy7u2rg" name="Password">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_WjpRU858EeuiC9HFy7u2rg" name="role">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_WjpRVM58EeuiC9HFy7u2rg" type="_WitdMc58EeuiC9HFy7u2rg" direction="return"/>
+                    <language>java</language>
+                    <body>if(role == &quot;Administrator&quot; || role ==&quot;Admin&quot;) {&#xD;
+			 isAdminUser = true;&#xD;
+			 proxyImpl = new ProxyExecuterImpl();&#xD;
+			 user = userName;&#xD;
+		 }&#xD;
+	</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wjp4YM58EeuiC9HFy7u2rg" name="executeFilter" specification="_Wiv5cM58EeuiC9HFy7u2rg">
+                    <ownedParameter xmi:id="_Wjp4Yc58EeuiC9HFy7u2rg" name="filterName">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>if(isAdminUser) {&#xD;
+			System.out.println(&quot;Welcome to Admistrator Board :&quot;+user);&#xD;
+			proxyImpl.executeFilter(filterName);&#xD;
+		}else { &#xD;
+			throw new Exception(&quot;User is not having Access to Apply Policy to this System!&quot;);&#xD;
+		}&#xD;
+		&#xD;
+	</body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_WiurUM58EeuiC9HFy7u2rg" name="ClientProxyExecutor" method="_WjpRUM58EeuiC9HFy7u2rg">
+                    <eAnnotations xmi:id="_WivSYs58EeuiC9HFy7u2rg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_WivSY858EeuiC9HFy7u2rg" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_WiurUc58EeuiC9HFy7u2rg" name="userName">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_WivSYM58EeuiC9HFy7u2rg" name="Password">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_WivSYc58EeuiC9HFy7u2rg" name="role">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_WivSZM58EeuiC9HFy7u2rg" type="_WitdMc58EeuiC9HFy7u2rg" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_Wiv5cM58EeuiC9HFy7u2rg" name="executeFilter" method="_Wjp4YM58EeuiC9HFy7u2rg" raisedException="_WjeSMs58EeuiC9HFy7u2rg">
+                    <ownedParameter xmi:id="_Wiv5cc58EeuiC9HFy7u2rg" name="filterName">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                </nestedClassifier>
+                <nestedClassifier xmi:type="uml:Class" xmi:id="_WiyVsM58EeuiC9HFy7u2rg" name="ProxyPatternExecution">
+                  <eAnnotations xmi:id="_WiyVsc58EeuiC9HFy7u2rg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_Wiy8wM58EeuiC9HFy7u2rg" key="sameFile"/>
+                  </eAnnotations>
+                  <ownedComment xmi:id="_WjrtkM58EeuiC9HFy7u2rg">
+                    <body>@author Kumar Markkasagayam&#xD;
+*</body>
+                  </ownedComment>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Wjp4Ys58EeuiC9HFy7u2rg" name="ProxyPatternExecution" specification="_Wiy8wc58EeuiC9HFy7u2rg">
+                    <ownedParameter xmi:id="_Wjp4Y858EeuiC9HFy7u2rg" type="_WiyVsM58EeuiC9HFy7u2rg" direction="return"/>
+                    <language>java</language>
+                    <body>ClientProxyExecutor nonAdminUser = new ClientProxyExecutor(&quot;kumar&quot;, &quot;test123&quot;, &quot;nonAdmin&quot;);&#xD;
+	//nonAdminUser.executeFilter(&quot;Apply-Telenet-Policy&quot;);&#xD;
+	ClientProxyExecutor adminUser = new ClientProxyExecutor(&quot;kumar.sagayam&quot;, &quot;test#@123&quot;, &quot;Admin&quot;);&#xD;
+	adminUser.executeFilter(&quot;MS-TelnetClient&quot;);&#xD;
+</body>
+                  </ownedBehavior>
+                  <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WjqfcM58EeuiC9HFy7u2rg" name="main" specification="_Wi0K4M58EeuiC9HFy7u2rg">
+                    <ownedParameter xmi:id="_Wjqfcc58EeuiC9HFy7u2rg" name="args">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Wjqfcs58EeuiC9HFy7u2rg" value="*"/>
+                    </ownedParameter>
+                    <language>java</language>
+                    <body>new ProxyPatternExecution();&#xD;
+	</body>
+                  </ownedBehavior>
+                  <ownedOperation xmi:id="_Wiy8wc58EeuiC9HFy7u2rg" name="ProxyPatternExecution" method="_Wjp4Ys58EeuiC9HFy7u2rg" raisedException="_WjeSMs58EeuiC9HFy7u2rg">
+                    <eAnnotations xmi:id="_Wizj0M58EeuiC9HFy7u2rg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_Wizj0c58EeuiC9HFy7u2rg" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_Wizj0s58EeuiC9HFy7u2rg" type="_WiyVsM58EeuiC9HFy7u2rg" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_Wi0K4M58EeuiC9HFy7u2rg" name="main" isStatic="true" method="_WjqfcM58EeuiC9HFy7u2rg" raisedException="_WjeSMs58EeuiC9HFy7u2rg">
+                    <ownedParameter xmi:id="_Wi0x8M58EeuiC9HFy7u2rg" name="args">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Wi1ZAM58EeuiC9HFy7u2rg" value="*"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                </nestedClassifier>
+                <ownedOperation xmi:id="_Wi2nIM58EeuiC9HFy7u2rg" name="executeFilter" raisedException="_WjeSMs58EeuiC9HFy7u2rg">
+                  <ownedParameter xmi:id="_Wi2nIc58EeuiC9HFy7u2rg" name="filterName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_WjgHYM58EeuiC9HFy7u2rg" name="ProxyExecuterImpl"/>
+              <packagedElement xmi:type="uml:Association" xmi:id="_Wjs7sM58EeuiC9HFy7u2rg" name="" memberEnd="_Wjs7sc58EeuiC9HFy7u2rg _WjkY0M58EeuiC9HFy7u2rg">
+                <ownedEnd xmi:id="_Wjs7sc58EeuiC9HFy7u2rg" name="" type="_WitdMc58EeuiC9HFy7u2rg" association="_Wjs7sM58EeuiC9HFy7u2rg"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_WjeSMM58EeuiC9HFy7u2rg" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_WjeSMc58EeuiC9HFy7u2rg" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_WjeSMs58EeuiC9HFy7u2rg" name="Exception"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_WcgukM58EeuiC9HFy7u2rg">
+      <eAnnotations xmi:id="_Wcgukc58EeuiC9HFy7u2rg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_WchVoM58EeuiC9HFy7u2rg" base_Package="_WQRpYM58EeuiC9HFy7u2rg">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Wis2IM58EeuiC9HFy7u2rg" base_Element="_WisPEM58EeuiC9HFy7u2rg"/>
+  <UMLLabProfile:Annotations xmi:id="_Wis2Ic58EeuiC9HFy7u2rg" base_Element="_WisPEM58EeuiC9HFy7u2rg">
+    <annotations xmi:id="_WitdMM58EeuiC9HFy7u2rg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WiwggM58EeuiC9HFy7u2rg" base_Element="_Wiv5cM58EeuiC9HFy7u2rg"/>
+  <UMLLabProfile:Annotations xmi:id="_WixHkM58EeuiC9HFy7u2rg" base_Element="_Wiv5cM58EeuiC9HFy7u2rg">
+    <annotations xmi:id="_WixHkc58EeuiC9HFy7u2rg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_WjfgUM58EeuiC9HFy7u2rg" base_Element="_WjeSMs58EeuiC9HFy7u2rg"/>
+  <UMLLabProfile:Reference xmi:id="_WjgucM58EeuiC9HFy7u2rg" base_Element="_WjgHYM58EeuiC9HFy7u2rg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WjjxwM58EeuiC9HFy7u2rg" base_Element="_WjjKsM58EeuiC9HFy7u2rg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WjncIM58EeuiC9HFy7u2rg" base_Element="_WjkY0M58EeuiC9HFy7u2rg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WjoDMM58EeuiC9HFy7u2rg" base_Element="_WjncIc58EeuiC9HFy7u2rg"/>
+  <UMLLabProfile:Reference xmi:id="_Wjuw4M58EeuiC9HFy7u2rg" base_Element="_Wjs7sM58EeuiC9HFy7u2rg"/>
+</xmi:XMI>

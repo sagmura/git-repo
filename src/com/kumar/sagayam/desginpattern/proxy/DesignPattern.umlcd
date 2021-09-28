@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_WUwgwM58EeuiC9HFy7u2rg">
+  <modelElement href="ProxyPattern.uml#_WiYGAM58EeuiC9HFy7u2rg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_WliuwM58EeuiC9HFy7u2rg" sourceAnchor="140.0,0.0" targetAnchor="140.0,85.0" dashed="true" superClass="_WlvjEM58EeuiC9HFy7u2rg" subClass="_Wl7wUM58EeuiC9HFy7u2rg">
+    <modelElement href="ProxyPattern.uml#_WjYLkM58EeuiC9HFy7u2rg"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Wliuwc58EeuiC9HFy7u2rg" sourceAnchor="334.0,0.0" targetAnchor="0.0,43.0" dashed="true" superClass="_WlvjEM58EeuiC9HFy7u2rg" subClass="_WmBP4M58EeuiC9HFy7u2rg">
+    <modelElement href="ProxyPattern.uml#_WjYyoM58EeuiC9HFy7u2rg"/>
+    <bendpoints xmi:id="_ZzWHgM58EeuiC9HFy7u2rg" sourceY="-43" targetX="-373"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Wlkj8c58EeuiC9HFy7u2rg" targetItem="_WmLn8M58EeuiC9HFy7u2rg" sourceItem="_Wlkj8M58EeuiC9HFy7u2rg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_WlnnQM58EeuiC9HFy7u2rg" source="_WmBP4M58EeuiC9HFy7u2rg">
+    <modelElement href="ProxyPattern.uml#_Wjs7sM58EeuiC9HFy7u2rg"/>
+    <stereotypes xmi:id="_Wlsfwc58EeuiC9HFy7u2rg" name="Reference">
+      <modelElement href="ProxyPattern.uml#_Wjuw4M58EeuiC9HFy7u2rg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Wlr4sM58EeuiC9HFy7u2rg" text=""/>
+    <sourceRole xmi:id="_Wlr4sc58EeuiC9HFy7u2rg" aggregationKind="NONE" name="">
+      <modelElement href="ProxyPattern.uml#_Wjs7sc58EeuiC9HFy7u2rg"/>
+      <visibility xmi:id="_WluU8M58EeuiC9HFy7u2rg" label="+"/>
+      <cardinality xmi:id="_Wltt4M58EeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_WlsfwM58EeuiC9HFy7u2rg" aggregationKind="NONE" name="proxyImpl" navigable="true">
+      <modelElement href="ProxyPattern.uml#_WjkY0M58EeuiC9HFy7u2rg"/>
+      <visibility xmi:id="_WluU8s58EeuiC9HFy7u2rg" label="~"/>
+      <cardinality xmi:id="_WluU8c58EeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Wlkj8M58EeuiC9HFy7u2rg" sourceConnectionVisual="_Wlkj8c58EeuiC9HFy7u2rg" text="@author Kumar Markkasagayam&#xD;&#xA;*" item="_WmLn8M58EeuiC9HFy7u2rg">
+    <modelElement href="ProxyPattern.uml#_WjrtkM58EeuiC9HFy7u2rg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_WlvjEM58EeuiC9HFy7u2rg" name="ProxyOpertaionExecuter" subclassedBy="_WliuwM58EeuiC9HFy7u2rg _Wliuwc58EeuiC9HFy7u2rg">
+    <modelElement href="ProxyPattern.uml#_Win9oM58EeuiC9HFy7u2rg"/>
+    <visualProperties xmi:id="_WlvjEc58EeuiC9HFy7u2rg" position="668.0,-63.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_WlvjEs58EeuiC9HFy7u2rg" label="~"/>
+    <operations xmi:id="_WlvjE858EeuiC9HFy7u2rg" name="executeFilter">
+      <modelElement href="ProxyPattern.uml#_Wi2nIM58EeuiC9HFy7u2rg"/>
+      <visibility xmi:id="_WlvjFM58EeuiC9HFy7u2rg" label="+"/>
+      <cardinality xmi:id="_WlvjFc58EeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_WlvjFs58EeuiC9HFy7u2rg" name="filterName">
+        <modelElement href="ProxyPattern.uml#_Wi2nIc58EeuiC9HFy7u2rg"/>
+        <cardinality xmi:id="_WlvjF858EeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+        <type xmi:id="_WlvjGM58EeuiC9HFy7u2rg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <memberTypes xmi:id="_WlvjGc58EeuiC9HFy7u2rg" name="ProxyExecuterImpl">
+      <modelElement href="ProxyPattern.uml#_WiqZ4M58EeuiC9HFy7u2rg"/>
+      <keywords xmi:id="_WlvjGs58EeuiC9HFy7u2rg" keyword="sameFile"/>
+      <visibility xmi:id="_WlvjG858EeuiC9HFy7u2rg" label="~"/>
+      <operations xmi:id="_WlvjHM58EeuiC9HFy7u2rg" name="executeFilter">
+        <modelElement href="ProxyPattern.uml#_WisPEM58EeuiC9HFy7u2rg"/>
+        <stereotypes xmi:id="_WlvjHc58EeuiC9HFy7u2rg" name="LegacyStyledElement">
+          <modelElement href="ProxyPattern.uml#_Wis2IM58EeuiC9HFy7u2rg"/>
+        </stereotypes>
+        <stereotypes xmi:id="_WlvjHs58EeuiC9HFy7u2rg" name="Annotations">
+          <modelElement href="ProxyPattern.uml#_Wis2Ic58EeuiC9HFy7u2rg"/>
+        </stereotypes>
+        <visibility xmi:id="_WlvjH858EeuiC9HFy7u2rg" label="+"/>
+        <cardinality xmi:id="_WlvjIM58EeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+        <parameters xmi:id="_WlvjIc58EeuiC9HFy7u2rg" name="filterName">
+          <modelElement href="ProxyPattern.uml#_WisPEc58EeuiC9HFy7u2rg"/>
+          <cardinality xmi:id="_WlvjIs58EeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+          <type xmi:id="_WlvjI858EeuiC9HFy7u2rg" name="String">
+            <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </type>
+        </parameters>
+      </operations>
+    </memberTypes>
+    <memberTypes xmi:id="_WlvjJM58EeuiC9HFy7u2rg" name="ClientProxyExecutor">
+      <modelElement href="ProxyPattern.uml#_WitdMc58EeuiC9HFy7u2rg"/>
+      <keywords xmi:id="_WlvjJc58EeuiC9HFy7u2rg" keyword="sameFile"/>
+      <visibility xmi:id="_WlvjJs58EeuiC9HFy7u2rg" label="~"/>
+      <attributes xmi:id="_WlvjJ858EeuiC9HFy7u2rg" name="isAdminUser">
+        <modelElement href="ProxyPattern.uml#_WjjKsM58EeuiC9HFy7u2rg"/>
+        <stereotypes xmi:id="_WlvjKM58EeuiC9HFy7u2rg" name="LegacyStyledElement">
+          <modelElement href="ProxyPattern.uml#_WjjxwM58EeuiC9HFy7u2rg"/>
+        </stereotypes>
+        <visibility xmi:id="_WlvjKc58EeuiC9HFy7u2rg" label="~"/>
+        <cardinality xmi:id="_WlvjKs58EeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+        <type xmi:id="_WlvjK858EeuiC9HFy7u2rg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </attributes>
+      <attributes xmi:id="_WlvjLM58EeuiC9HFy7u2rg" name="proxyImpl">
+        <modelElement href="ProxyPattern.uml#_WjkY0M58EeuiC9HFy7u2rg"/>
+        <stereotypes xmi:id="_WlvjLc58EeuiC9HFy7u2rg" name="LegacyStyledElement">
+          <modelElement href="ProxyPattern.uml#_WjncIM58EeuiC9HFy7u2rg"/>
+        </stereotypes>
+        <visibility xmi:id="_WlvjLs58EeuiC9HFy7u2rg" label="~"/>
+        <cardinality xmi:id="_WlvjL858EeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+        <type xmi:id="_WlvjMM58EeuiC9HFy7u2rg" name="ProxyExecuterImpl">
+          <modelElement href="ProxyPattern.uml#_WjgHYM58EeuiC9HFy7u2rg"/>
+        </type>
+      </attributes>
+      <attributes xmi:id="_WlvjMc58EeuiC9HFy7u2rg" name="user">
+        <modelElement href="ProxyPattern.uml#_WjncIc58EeuiC9HFy7u2rg"/>
+        <stereotypes xmi:id="_WlvjMs58EeuiC9HFy7u2rg" name="LegacyStyledElement">
+          <modelElement href="ProxyPattern.uml#_WjoDMM58EeuiC9HFy7u2rg"/>
+        </stereotypes>
+        <visibility xmi:id="_WlvjM858EeuiC9HFy7u2rg" label="~"/>
+        <cardinality xmi:id="_WlvjNM58EeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+        <type xmi:id="_WlvjNc58EeuiC9HFy7u2rg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </attributes>
+      <operations xmi:id="_WlvjNs58EeuiC9HFy7u2rg" name="ClientProxyExecutor">
+        <modelElement href="ProxyPattern.uml#_WiurUM58EeuiC9HFy7u2rg"/>
+        <keywords xmi:id="_WlvjN858EeuiC9HFy7u2rg" keyword="create"/>
+        <visibility xmi:id="_WlvjOM58EeuiC9HFy7u2rg" label="+"/>
+        <cardinality xmi:id="_WlvjOc58EeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+        <outParameters xmi:id="_WlvjOs58EeuiC9HFy7u2rg">
+          <modelElement href="ProxyPattern.uml#_WivSZM58EeuiC9HFy7u2rg"/>
+          <type xmi:id="_WlvjO858EeuiC9HFy7u2rg" name="ClientProxyExecutor">
+            <modelElement href="ProxyPattern.uml#_WitdMc58EeuiC9HFy7u2rg"/>
+          </type>
+        </outParameters>
+        <parameters xmi:id="_WlvjPM58EeuiC9HFy7u2rg" name="userName">
+          <modelElement href="ProxyPattern.uml#_WiurUc58EeuiC9HFy7u2rg"/>
+          <cardinality xmi:id="_WlvjPc58EeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+          <type xmi:id="_WlvjPs58EeuiC9HFy7u2rg" name="String">
+            <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </type>
+        </parameters>
+        <parameters xmi:id="_WlvjP858EeuiC9HFy7u2rg" name="Password">
+          <modelElement href="ProxyPattern.uml#_WivSYM58EeuiC9HFy7u2rg"/>
+          <cardinality xmi:id="_WlvjQM58EeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+          <type xmi:id="_WlvjQc58EeuiC9HFy7u2rg" name="String">
+            <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </type>
+        </parameters>
+        <parameters xmi:id="_WlvjQs58EeuiC9HFy7u2rg" name="role">
+          <modelElement href="ProxyPattern.uml#_WivSYc58EeuiC9HFy7u2rg"/>
+          <cardinality xmi:id="_WlvjQ858EeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+          <type xmi:id="_WlvjRM58EeuiC9HFy7u2rg" name="String">
+            <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </type>
+        </parameters>
+      </operations>
+      <operations xmi:id="_WlvjRc58EeuiC9HFy7u2rg" name="executeFilter">
+        <modelElement href="ProxyPattern.uml#_Wiv5cM58EeuiC9HFy7u2rg"/>
+        <stereotypes xmi:id="_WlvjRs58EeuiC9HFy7u2rg" name="LegacyStyledElement">
+          <modelElement href="ProxyPattern.uml#_WiwggM58EeuiC9HFy7u2rg"/>
+        </stereotypes>
+        <stereotypes xmi:id="_WlvjR858EeuiC9HFy7u2rg" name="Annotations">
+          <modelElement href="ProxyPattern.uml#_WixHkM58EeuiC9HFy7u2rg"/>
+        </stereotypes>
+        <visibility xmi:id="_WlvjSM58EeuiC9HFy7u2rg" label="+"/>
+        <cardinality xmi:id="_WlvjSc58EeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+        <parameters xmi:id="_WlvjSs58EeuiC9HFy7u2rg" name="filterName">
+          <modelElement href="ProxyPattern.uml#_Wiv5cc58EeuiC9HFy7u2rg"/>
+          <cardinality xmi:id="_WlvjS858EeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+          <type xmi:id="_WlvjTM58EeuiC9HFy7u2rg" name="String">
+            <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </type>
+        </parameters>
+      </operations>
+    </memberTypes>
+    <memberTypes xmi:id="_WlvjTc58EeuiC9HFy7u2rg" name="ProxyPatternExecution">
+      <modelElement href="ProxyPattern.uml#_WiyVsM58EeuiC9HFy7u2rg"/>
+      <keywords xmi:id="_WlvjTs58EeuiC9HFy7u2rg" keyword="sameFile"/>
+      <visibility xmi:id="_WlvjT858EeuiC9HFy7u2rg" label="+"/>
+      <operations xmi:id="_WlvjUM58EeuiC9HFy7u2rg" name="ProxyPatternExecution">
+        <modelElement href="ProxyPattern.uml#_Wiy8wc58EeuiC9HFy7u2rg"/>
+        <keywords xmi:id="_WlvjUc58EeuiC9HFy7u2rg" keyword="create"/>
+        <visibility xmi:id="_WlvjUs58EeuiC9HFy7u2rg" label="+"/>
+        <cardinality xmi:id="_WlvjU858EeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+        <outParameters xmi:id="_WlvjVM58EeuiC9HFy7u2rg">
+          <modelElement href="ProxyPattern.uml#_Wizj0s58EeuiC9HFy7u2rg"/>
+          <type xmi:id="_WlvjVc58EeuiC9HFy7u2rg" name="ProxyPatternExecution">
+            <modelElement href="ProxyPattern.uml#_WiyVsM58EeuiC9HFy7u2rg"/>
+          </type>
+        </outParameters>
+      </operations>
+      <operations xmi:id="_WlvjVs58EeuiC9HFy7u2rg" name="main" staticOperation="true">
+        <modelElement href="ProxyPattern.uml#_Wi0K4M58EeuiC9HFy7u2rg"/>
+        <visibility xmi:id="_WlvjV858EeuiC9HFy7u2rg" label="+"/>
+        <cardinality xmi:id="_WlvjWM58EeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+        <parameters xmi:id="_WlvjWc58EeuiC9HFy7u2rg" name="args">
+          <modelElement href="ProxyPattern.uml#_Wi0x8M58EeuiC9HFy7u2rg"/>
+          <cardinality xmi:id="_WlvjWs58EeuiC9HFy7u2rg" label="1..*" max="-1" min="1"/>
+          <type xmi:id="_WlvjW858EeuiC9HFy7u2rg" name="String">
+            <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </type>
+        </parameters>
+      </operations>
+    </memberTypes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Wl7wUM58EeuiC9HFy7u2rg" name="ProxyExecuterImpl" generalizations="_WliuwM58EeuiC9HFy7u2rg">
+    <modelElement href="ProxyPattern.uml#_WiqZ4M58EeuiC9HFy7u2rg"/>
+    <visualProperties xmi:id="_Wl7wUc58EeuiC9HFy7u2rg" position="668.0,77.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_Wl7wUs58EeuiC9HFy7u2rg" keyword="sameFile"/>
+    <visibility xmi:id="_Wl7wU858EeuiC9HFy7u2rg" label="~"/>
+    <operations xmi:id="_Wl7wVM58EeuiC9HFy7u2rg" name="executeFilter">
+      <modelElement href="ProxyPattern.uml#_WisPEM58EeuiC9HFy7u2rg"/>
+      <visibility xmi:id="_Wl7wVc58EeuiC9HFy7u2rg" label="+"/>
+      <cardinality xmi:id="_Wl7wVs58EeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Wl7wV858EeuiC9HFy7u2rg" name="filterName">
+        <modelElement href="ProxyPattern.uml#_WisPEc58EeuiC9HFy7u2rg"/>
+        <cardinality xmi:id="_Wl7wWM58EeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+        <type xmi:id="_Wl7wWc58EeuiC9HFy7u2rg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Wl-zoM58EeuiC9HFy7u2rg" name="Exception">
+    <modelElement href="ProxyPattern.uml#_WjeSMs58EeuiC9HFy7u2rg"/>
+    <visualProperties xmi:id="_Wl-zoc58EeuiC9HFy7u2rg" position="754.0,218.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Wl-zos58EeuiC9HFy7u2rg" name="Reference">
+      <modelElement href="ProxyPattern.uml#_WjfgUM58EeuiC9HFy7u2rg"/>
+    </stereotypes>
+    <visibility xmi:id="_Wl-zo858EeuiC9HFy7u2rg" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_WmBP4M58EeuiC9HFy7u2rg" name="ClientProxyExecutor" associationsOut="_WlnnQM58EeuiC9HFy7u2rg" generalizations="_Wliuwc58EeuiC9HFy7u2rg">
+    <modelElement href="ProxyPattern.uml#_WitdMc58EeuiC9HFy7u2rg"/>
+    <visualProperties xmi:id="_WmBP4c58EeuiC9HFy7u2rg" position="-39.0,23.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_WmBP4s58EeuiC9HFy7u2rg" keyword="sameFile"/>
+    <visibility xmi:id="_WmBP4858EeuiC9HFy7u2rg" label="~"/>
+    <attributes xmi:id="_WmBP5M58EeuiC9HFy7u2rg" name="isAdminUser">
+      <modelElement href="ProxyPattern.uml#_WjjKsM58EeuiC9HFy7u2rg"/>
+      <visibility xmi:id="_WmBP5c58EeuiC9HFy7u2rg" label="~"/>
+      <cardinality xmi:id="_WmBP5s58EeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+      <type xmi:id="_WmBP5858EeuiC9HFy7u2rg" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_WmBP6M58EeuiC9HFy7u2rg" name="proxyImpl">
+      <modelElement href="ProxyPattern.uml#_WjkY0M58EeuiC9HFy7u2rg"/>
+      <visibility xmi:id="_WmBP6c58EeuiC9HFy7u2rg" label="~"/>
+      <cardinality xmi:id="_WmBP6s58EeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+      <type xmi:id="_WmBP6858EeuiC9HFy7u2rg" name="ProxyExecuterImpl">
+        <modelElement href="ProxyPattern.uml#_WjgHYM58EeuiC9HFy7u2rg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_WmBP7M58EeuiC9HFy7u2rg" name="user">
+      <modelElement href="ProxyPattern.uml#_WjncIc58EeuiC9HFy7u2rg"/>
+      <visibility xmi:id="_WmBP7c58EeuiC9HFy7u2rg" label="~"/>
+      <cardinality xmi:id="_WmBP7s58EeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+      <type xmi:id="_WmBP7858EeuiC9HFy7u2rg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_WmBP8M58EeuiC9HFy7u2rg" name="ClientProxyExecutor">
+      <modelElement href="ProxyPattern.uml#_WiurUM58EeuiC9HFy7u2rg"/>
+      <keywords xmi:id="_WmBP8c58EeuiC9HFy7u2rg" keyword="create"/>
+      <visibility xmi:id="_WmBP8s58EeuiC9HFy7u2rg" label="+"/>
+      <cardinality xmi:id="_WmBP8858EeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_WmBP9M58EeuiC9HFy7u2rg">
+        <modelElement href="ProxyPattern.uml#_WivSZM58EeuiC9HFy7u2rg"/>
+        <type xmi:id="_WmBP9c58EeuiC9HFy7u2rg" name="ClientProxyExecutor">
+          <modelElement href="ProxyPattern.uml#_WitdMc58EeuiC9HFy7u2rg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WmBP9s58EeuiC9HFy7u2rg" name="userName">
+        <modelElement href="ProxyPattern.uml#_WiurUc58EeuiC9HFy7u2rg"/>
+        <cardinality xmi:id="_WmBP9858EeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+        <type xmi:id="_WmBP-M58EeuiC9HFy7u2rg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_WmBP-c58EeuiC9HFy7u2rg" name="Password">
+        <modelElement href="ProxyPattern.uml#_WivSYM58EeuiC9HFy7u2rg"/>
+        <cardinality xmi:id="_WmBP-s58EeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+        <type xmi:id="_WmBP-858EeuiC9HFy7u2rg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_WmBP_M58EeuiC9HFy7u2rg" name="role">
+        <modelElement href="ProxyPattern.uml#_WivSYc58EeuiC9HFy7u2rg"/>
+        <cardinality xmi:id="_WmBP_c58EeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+        <type xmi:id="_WmBP_s58EeuiC9HFy7u2rg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WmBP_858EeuiC9HFy7u2rg" name="executeFilter">
+      <modelElement href="ProxyPattern.uml#_Wiv5cM58EeuiC9HFy7u2rg"/>
+      <visibility xmi:id="_WmBQAM58EeuiC9HFy7u2rg" label="+"/>
+      <cardinality xmi:id="_WmBQAc58EeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_WmBQAs58EeuiC9HFy7u2rg" name="filterName">
+        <modelElement href="ProxyPattern.uml#_Wiv5cc58EeuiC9HFy7u2rg"/>
+        <cardinality xmi:id="_WmBQA858EeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+        <type xmi:id="_WmBQBM58EeuiC9HFy7u2rg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_WmLn8M58EeuiC9HFy7u2rg" comments="_Wlkj8M58EeuiC9HFy7u2rg" targetConnectionVisual="_Wlkj8c58EeuiC9HFy7u2rg" name="ProxyPatternExecution">
+    <modelElement href="ProxyPattern.uml#_WiyVsM58EeuiC9HFy7u2rg"/>
+    <visualProperties xmi:id="_WmLn8c58EeuiC9HFy7u2rg" position="1032.0,-3.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_WmLn8s58EeuiC9HFy7u2rg" keyword="sameFile"/>
+    <visibility xmi:id="_WmLn8858EeuiC9HFy7u2rg" label="+"/>
+    <operations xmi:id="_WmLn9M58EeuiC9HFy7u2rg" name="ProxyPatternExecution">
+      <modelElement href="ProxyPattern.uml#_Wiy8wc58EeuiC9HFy7u2rg"/>
+      <keywords xmi:id="_WmLn9c58EeuiC9HFy7u2rg" keyword="create"/>
+      <visibility xmi:id="_WmLn9s58EeuiC9HFy7u2rg" label="+"/>
+      <cardinality xmi:id="_WmLn9858EeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_WmLn-M58EeuiC9HFy7u2rg">
+        <modelElement href="ProxyPattern.uml#_Wizj0s58EeuiC9HFy7u2rg"/>
+        <type xmi:id="_WmLn-c58EeuiC9HFy7u2rg" name="ProxyPatternExecution">
+          <modelElement href="ProxyPattern.uml#_WiyVsM58EeuiC9HFy7u2rg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_WmLn-s58EeuiC9HFy7u2rg" name="main" staticOperation="true">
+      <modelElement href="ProxyPattern.uml#_Wi0K4M58EeuiC9HFy7u2rg"/>
+      <visibility xmi:id="_WmLn-858EeuiC9HFy7u2rg" label="+"/>
+      <cardinality xmi:id="_WmLn_M58EeuiC9HFy7u2rg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_WmLn_c58EeuiC9HFy7u2rg" name="args">
+        <modelElement href="ProxyPattern.uml#_Wi0x8M58EeuiC9HFy7u2rg"/>
+        <cardinality xmi:id="_WmLn_s58EeuiC9HFy7u2rg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_WmLn_858EeuiC9HFy7u2rg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
